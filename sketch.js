@@ -79,16 +79,3 @@ function createBullet() {
   Bullet.scale = 0.1;
 }
 
-function createFireball()
-{
-  if(frameCount%250===0)
-  {
-    Fireball = createSprite(1600,850,50,50)
-    Fireball.velocityX = -4;
-    Fireball.addImage(FireballImg);
-    Fireball.lifetime = 150;
-    Fireball.scale = 0.1;
-
-  }
-
-}
